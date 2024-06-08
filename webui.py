@@ -92,7 +92,7 @@ def main():
 
     parser = argparse.ArgumentParser(description='ChatTTS demo Launch')
     parser.add_argument('--server_name', type=str, default='0.0.0.0', help='Server name')
-    parser.add_argument('--server_port', type=int, default=8080, help='Server port')
+    parser.add_argument('--server_port', type=int, default=8081, help='Server port')
     parser.add_argument('--local_path', type=str, default=None, help='the local_path if need')
     args = parser.parse_args()
 
